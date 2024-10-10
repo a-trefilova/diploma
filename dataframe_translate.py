@@ -7,7 +7,7 @@ import time
 pd.set_option('display.max_columns', None)
 
 # Загрузка данных
-data = pd.read_csv('/Users/alyona/Downloads/Resume.csv')
+data = pd.read_csv('Resume.csv')
 
 # Инициализация переводчика
 translator = GoogleTranslator(source='en', target='ru')
